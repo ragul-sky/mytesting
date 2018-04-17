@@ -1,0 +1,9 @@
+{"namespace": "tomatos.avro",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "Year", "type": "int"},
+     {"name": "Score",  "type": ["int", "null"]},
+     {"name": "Title", "type": ["string", "null"]}
+ ]
+}
